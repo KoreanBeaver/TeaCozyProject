@@ -167,6 +167,31 @@ body {
     margin: 30px;
 }
 
+@media (max-width: 768px) {
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    .textbox h4, h2 {
+        white-space: normal; /* 텍스트 줄바꿈 허용 */
+    }
+    .totmimg, .totmimg-2nd {
+        flex-direction: column;
+        align-items: center;
+    }
+    .locations {
+        height: auto; /* 높이 자동 조정 */
+    }
+    .location-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .location {
+        width: 90%; /* 너비 조정 */
+        margin: 10px auto; /* 중앙 정렬 */
+    }
+}
+
 .footer {
     margin-top: 10px;
     display: flex;
